@@ -1,4 +1,7 @@
 site_name: My Docs
+site_url: https://<tuo-username>.github.io/<nome-repo>/
+repo_url: https://github.com/<tuo-username>/<nome-repo>
+edit_uri: edit/main/docs/
 theme:
   name: material
   language: it
