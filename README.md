@@ -1,6 +1,15 @@
-# Sito MkDocs Material di esempio
+# Template per sito MkDocs Material
 
-Questo repository contiene un esempio di configurazione per creare un sito documentazione utilizzando MkDocs con il tema Material.
+Questo repository è configurato come template GitHub per creare rapidamente nuovi siti documentazione utilizzando MkDocs con il tema Material.
+
+## Come trasformare questo repository in un template
+
+1. Vai su Settings del repository
+2. Nella sezione "Template repository"
+3. Seleziona "Template repository"
+4. Salva le modifiche
+
+Ora il repository apparirà con un badge "Template" e potrà essere usato come base per nuovi progetti.
 
 ## Caratteristiche principali
 
@@ -12,12 +21,17 @@ Il template include già configurato:
 - Navigazione avanzata con tabs e indici
 - Ricerca integrata
 
-## Come usare questo repository
+## Come usare questo template
 
-1. Fai un fork di questo repository o clonalo localmente
-2. Modifica il file `mkdocs.yml` con le informazioni del tuo progetto
-3. Aggiungi i tuoi file markdown nella cartella `docs/`
-4. Personalizza la configurazione secondo le tue esigenze
+1. Clicca su "Use this template" (in alto a destra nella pagina del repository)
+2. Scegli un nome per il nuovo repository
+3. Seleziona se renderlo pubblico o privato
+4. Clicca su "Create repository from template"
+
+Il nuovo repository conterrà:
+- Configurazione MkDocs preimpostata
+- Workflow GitHub Actions per il deploy
+- Struttura di base della documentazione
 
 ## Abilitare la pubblicazione su GitHub Pages
 
