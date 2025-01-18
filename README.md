@@ -48,8 +48,11 @@ Il nuovo repository conterrà:
    - Seleziona la cartella `/ (root)`
 4. Salva le modifiche
 
-Il sito sarà disponibile all'indirizzo:
-`https://<tuo-username>.github.io/<nome-repo>/`
+Una volta configurato correttamente:
+- GitHub mostrerà l'URL pubblico del sito nella sezione Pages
+- Il sito sarà disponibile all'indirizzo:
+  `https://<tuo-username>.github.io/<nome-repo>/`
+- Potrebbero volerci alcuni minuti prima che il sito sia accessibile
 
 ## Sviluppo locale
 
