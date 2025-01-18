@@ -20,12 +20,21 @@ Il template include già configurato:
 
 ## Abilitare la pubblicazione su GitHub Pages
 
-1. Vai su Settings > Pages nel tuo repository
-2. Nella sezione "Build and deployment":
+1. Crea il branch `gh-pages`:
+   ```bash
+   git checkout --orphan gh-pages
+   git rm -rf .
+   git commit --allow-empty -m "Initial gh-pages commit"
+   git push origin gh-pages
+   git checkout main
+   ```
+
+2. Vai su Settings > Pages nel tuo repository
+3. Nella sezione "Build and deployment":
    - Scegli "Deploy from a branch"
    - Seleziona il branch `gh-pages`
    - Seleziona la cartella `/ (root)`
-3. Salva le modifiche
+4. Salva le modifiche
 
 Il sito sarà disponibile all'indirizzo:
 `https://<tuo-username>.github.io/<nome-repo>/`
