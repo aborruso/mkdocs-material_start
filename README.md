@@ -25,6 +25,18 @@ Il template include già configurato:
 3. Seleziona se renderlo pubblico o privato
 4. Clicca su "Create repository from template"
 
+Dopo aver creato il repository:
+1. Modifica il file `mkdocs.yml` aggiornando questi valori:
+   ```yaml
+   site_url: https://<tuo-username>.github.io/<nome-repo>/
+   repo_url: https://github.com/<tuo-username>/<nome-repo>
+   ```
+2. Aggiorna anche il valore `edit_uri` se necessario:
+   ```yaml
+   edit_uri: edit/<branch-principale>/docs/
+   ```
+   (sostituisci `<branch-principale>` con il nome del branch principale, tipicamente `main` o `master`)
+
 Il nuovo repository conterrà:
 - Configurazione MkDocs preimpostata
 - Workflow GitHub Actions per il deploy
